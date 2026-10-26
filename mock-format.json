@@ -1,0 +1,18 @@
+{
+  "_说明": "此文件是结构说明，不是可直接导入的题卷。请替换占位并填齐全部55道客观题与2道主观题。不要把结构模板当真题。单题组格式见sample-bank.json。",
+  "id": "my-paper-id",
+  "title": "真实试卷标题",
+  "exam": "2024-06",
+  "source": "你合法取得且已核查的来源名称",
+  "sourceUrl": "https://example.com/replace-with-real-source",
+  "originalSet": "来源上的原始套号，勿自行跨站合并",
+  "kind": "真题整理版",
+  "verification": "用户已核对题文音频与参考答案",
+  "writing": {"prompt": "填入完整写作题目"},
+  "translation": {"prompt": "填入完整翻译原文"},
+  "listening": [],
+  "reading": [],
+  "_listening规则": "单题组共用sample-bank格式并添加section。news共7题，conversation共8题，lecture共10题。所有组type=listening，有audio音频URL、audioKind准确归属、sourceUrl。passage是听力原文。不能重复材料。",
+  "_reading规则": "cloze共10题，matching共10题，reading共10题。每组section取对应名称；type取reading或matching。选词填空options可给15个词，每题answer为0起始索引。",
+  "_逐题要求": "questions数组中每题有唯一id、stem、options、answer、evidence和passageEvidenceConfirmed=true，说明你已核对原文依据。缺失依据或存疑答案不能开启完整模拟。填写explanation、paraphrase、distractors可获得复盘。"
+}

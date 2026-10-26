@@ -1,0 +1,24 @@
+{
+  "id": "my-original-reading-01",
+  "title": "导入格式示例：小步学习（原创）",
+  "type": "reading",
+  "exam": "不适用（原创）",
+  "source": "本应用原创示例；请替换为真实来源",
+  "sourceUrl": "",
+  "originalSet": "原创示例01",
+  "kind": "原创练习",
+  "verification": "原创格式示例，非真题",
+  "passage": "Lin reads two pages every morning. A small daily goal helps her keep learning even when she is busy.",
+  "questions": [{
+    "id": "sample-q1",
+    "stem": "What helps Lin keep learning?",
+    "options": ["A small daily goal.", "A long monthly test."],
+    "answer": 0,
+    "passageEvidenceConfirmed": true,
+    "evidence": "A small daily goal helps her keep learning even when she is busy.",
+    "explanation": "small daily goal 是每天的小目标，后半句表示忙碌时也能坚持。",
+    "paraphrase": "keep learning = continue learning",
+    "distractors": ["对应原文的小目标。", "文章没有提及月考。"],
+    "words": [["goal", "目标"]]
+  }]
+}
